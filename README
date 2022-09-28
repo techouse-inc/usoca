@@ -54,5 +54,5 @@ command (included in GnuTLS),
                   --outfile yourserver_cert_sha256.pem \
                   --load-ca-certificate serverca_cert_sha256.pem \
                   --load-ca-privkey serverca_key.pem \
-                  --template yourserver.cfg  --hash sha1
+                  --template yourserver.cfg  --hash sha256
 
